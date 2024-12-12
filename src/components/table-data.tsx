@@ -3,8 +3,8 @@
 import { supabase } from '@/libs/supabase-client';
 import React, { useEffect, useState } from 'react'
 
-export default function TableData({ data }: {data : any}) {
-
+export default function TableData({ data }: {data : any}) 
+{
   const [ content, setContent ] = useState<any>({
     title: data.title,
     description: data.description,
