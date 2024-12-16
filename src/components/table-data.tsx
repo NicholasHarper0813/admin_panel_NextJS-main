@@ -24,8 +24,6 @@ export default function TableData({ data }: {data : any})
       )
       .subscribe()
 
-    console.log('Subscribed to content-update-channel')
-
     return () => {
       channels.unsubscribe()
     }
