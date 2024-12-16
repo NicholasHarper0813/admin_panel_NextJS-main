@@ -1,10 +1,13 @@
 import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
-  typescript: {
+const nextConfig: NextConfig = 
+{
+  typescript: 
+  {
     "ignoreBuildErrors": true
   },
-  eslint: {
+  eslint: 
+  {
     "ignoreDuringBuilds": true
   }
 };
