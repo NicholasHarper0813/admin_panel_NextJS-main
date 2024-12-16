@@ -7,7 +7,8 @@ type Content = {
   description: string;
 };
 
-async function getData(){
+async function getData()
+{
   const { data, error } = await supabase.from("content").select("*").eq("id", 1);
   
   if (error) 
