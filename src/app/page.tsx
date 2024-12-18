@@ -10,7 +10,6 @@ type Content = {
 async function getData()
 {
   const { data, error } = await supabase.from("content").select("*").eq("id", 1);
-  
   if (error) 
   {
     throw error;
