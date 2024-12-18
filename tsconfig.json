@@ -1,5 +1,6 @@
 {
-  "compilerOptions": {
+  "compilerOptions": 
+  {
     "target": "ES2017",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
@@ -18,7 +19,8 @@
         "name": "next"
       }
     ],
-    "paths": {
+    "paths": 
+    {
       "@/*": ["./src/*"]
     }
   },
